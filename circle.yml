@@ -1,0 +1,11 @@
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: nameless-forest-8826
+
+
+
+machine:
+  environment:
+    DATABASE_URL: postgres://rnxhitvoyjaoam:ydpJMVWFjKNDLQ8qAtgK0Xj9el@ec2-107-20-159-155.compute-1.amazonaws.com:5432/d5joo3svus3o5g
