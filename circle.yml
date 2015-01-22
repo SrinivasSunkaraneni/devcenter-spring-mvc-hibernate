@@ -1,8 +1,8 @@
 deployment:
   staging:
     branch: master
-    commands:
-      - curl -k -X POST --user bambooadmin:S8oEIdaL https://bamboo.octanner.com/rest/api/latest/queue/VIS-PEM?os_authType=basic
+    #commands:
+     # - curl -k -X POST --user bambooadmin:S8oEIdaL https://bamboo.octanner.com/rest/api/latest/queue/VIS-PEM?os_authType=basic
     heroku:
       appname: nameless-forest-8826
 
@@ -15,7 +15,7 @@ deployment:
     branch: test-test
     commands:
       - curl -k -X POST --user bambooadmin:S8oEIdaL https://bamboo.octanner.com/rest/api/latest/queue/VIS-PEQ?os_authType=basic
-    heroku:
-      appname: nameless-forest-8826
+    #heroku:
+     # appname: nameless-forest-8826
 
 
